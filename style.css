@@ -1,0 +1,178 @@
+body {
+    font-family: 'Calibri', Helvetica;
+    text-align: center;
+}
+
+.resume {
+    width: 60%;
+    max-width: 960px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+    padding-bottom: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 3%;
+    position: relative;
+    text-align: center;
+}
+
+.sidebar {
+    float: left;
+    margin-left: 3%;
+    text-align: right;
+    width: 30%;
+    word-wrap: break-word;
+}
+
+.main {
+    float: right;
+    margin-right: 3%;
+    text-align: left;
+    width: 60%;
+    word-wrap: break-word;
+}
+
+.bottom {
+    bottom: 4%;
+    float: left;
+    margin: 1em;
+    position: absolute;
+    text-align: right;
+    width: 30%;
+}
+
+.block {    /* Resume items */
+    color: #000000;
+    margin-bottom: 1em;
+}
+
+h1 {        /* Big headers - colored */
+    font-size: 2.5em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2 {        /* Smaller headers - colored */
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;   
+}
+
+h3 {        /* Subheadings - gray */
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 1em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h4, h5, h6, pre, p {
+    color: #000000;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+img {
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+
+::selection {
+    background: #FFFFFF;
+    color: #BADA55;
+}
+
+@media (max-width: 990px){
+    .resume {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 666px){
+    .resume {
+        width: 98%;
+    }
+
+    .sidebar {
+        float: right;
+        margin-left: auto;
+        margin-right: .75em;
+        margin-top: 1em;
+        text-align: center;
+        width: 90%;
+    }
+
+    .sidebar img {
+        float: left;
+        width: 30%;
+        text-align: right;
+        min-width: 125px;
+        margin-top: 0em;
+        margin-right: 1em;
+        margin-bottom: 1em;    
+    }
+
+    .main { 
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .bottom {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+        position: relative;
+        text-align: center;
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 1.75em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+}
+
+@media (max-width: 490px){
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 332px){
+    .sidebar {
+        text-align: right;
+    }
+    .sidebar img {
+        min-width: 100px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+}
